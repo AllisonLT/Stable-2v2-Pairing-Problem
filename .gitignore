@@ -1,0 +1,56 @@
+﻿# Build Directories
+build/
+Debug/
+Release/
+x64/
+bin/
+lib/
+.cmake/
+
+# Visual Studio 2022 Files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+.vs/
+
+# C++ Compilation Artifacts
+*.obj
+*.exe
+*.exe.manifest
+*.pdb
+*.lib
+*.dll
+*.exp
+*.ilk
+*.pch
+*.ipch
+
+# IDE Configuration
+.vscode/
+.idea/
+*.code-workspace
+
+# Output & Log Directories
+output/
+logs/
+*.log
+
+# Temporary & Backup Files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Config Temporary Files
+config/*.tmp
+config/*.bak
+!config/PairingConfig.ini
+
+# Test Temporary Files
+test/*.tmp
+test/*.log
+!test/*.cpp
