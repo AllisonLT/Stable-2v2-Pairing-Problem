@@ -2,7 +2,7 @@
 
 #include "../../include/model/Player.h"
 
-Player::Player(std::string id, int rank, Race r, double m)
+Player::Player(std::string id, int rank, Race r, int m)
     : playerId(std::move(id)), seedingRank(rank), race(r), mmr(m) {}
 
 std::string Player::getPlayerId() const {
@@ -17,7 +17,7 @@ Race Player::getRace() const {
     return race;
 }
 
-double Player::getMMR() const {
+int Player::getMMR() const {
     return mmr;
 }
 
